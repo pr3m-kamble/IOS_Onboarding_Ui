@@ -117,7 +117,7 @@ extension OnboardingView {
     private var welcomesection: some View {
         VStack(spacing: 40){
             Spacer()
-            Image(systemName: "heart.text.square.fill")
+            Image(systemName: "heart")
                 .resizable()
                 .scaledToFit( )
                 .frame(width: 200, height: 200)
